@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "universal-shortcuts-mc",
+  "version": "${version}",
+  "name": "Universal Shortcuts",
+  "description": "Fixes MC-121278.",
+  "authors": [
+    "MDLC01"
+  ],
+  "contact": {},
+  "icon": "assets/universal-shortcuts-mc/icon.png",
+  "environment": "client",
+  "entrypoints": {},
+  "mixins": [
+    "universal-shortcuts-mc.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "minecraft": "1.19.4"
+  }
+}
