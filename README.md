@@ -16,6 +16,6 @@ This mod does not add shortcuts. It makes the shortcuts that are already support
 
 By implementing the fix that is suggested on [the bug report for MC-121278](https://bugs.mojang.com/browse/MC-121278). That is, testing for the key name instead of its location on the keyboard.
 
-### What about non-Latin keyboards?
+### What about non-Latin keyboard layouts?
 
 This is a good question to which I unfortunately do not have a good answer. There are two possibilities: either your keyboard is capable of producing Latin letters, in which case you may be able to use the shortcuts, or it is not capable of doing so, in which case this mod will completely disable keyobard shortcuts.
