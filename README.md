@@ -1,16 +1,16 @@
 # Universal Shortcuts
 
-This is a Fabric mod for Minecraft that fixes [MC-121278](https://bugs.mojang.com/browse/MC-121278), making Ctrl+A and other keyboard shortcuts work on non-QWERTY keyboard layouts.
+This is a Fabric mod for Minecraft that fixes [MC-121278](https://bugs.mojang.com/browse/MC-121278), making <kbd>Ctrl</kbd>+<kbd>A</kbd> and other keyboard shortcuts work on non-QWERTY keyboard layouts.
 
 ## Q&A
 
 ### What shortcuts are supported?
 
 This mod does not add shortcuts. It makes the shortcuts that are already supported by Minecraft work on non-QWERTY keyboard layouts. Those shortcuts are:
-- Select all (Ctrl+A),
-- Copy (Ctrl+C),
-- Paste (Ctrl+V),
-- Cut (Ctrl+X).
+- Select all (<kbd>Ctrl</kbd>+<kbd>A</kbd>),
+- Copy (<kbd>Ctrl</kbd>+<kbd>C</kbd>),
+- Paste (<kbd>Ctrl</kbd>+<kbd>V</kbd>),
+- Cut (<kbd>Ctrl</kbd>+<kbd>X</kbd>).
 
 ### How does it work?
 
