@@ -10,7 +10,10 @@ This mod does not add shortcuts. It makes the shortcuts that are already support
 - Select all (<kbd>Ctrl</kbd>+<kbd>A</kbd>),
 - Copy (<kbd>Ctrl</kbd>+<kbd>C</kbd>),
 - Paste (<kbd>Ctrl</kbd>+<kbd>V</kbd>),
-- Cut (<kbd>Ctrl</kbd>+<kbd>X</kbd>).
+- Cut (<kbd>Ctrl</kbd>+<kbd>X</kbd>),
+- All [debug combinations](https://minecraft.fandom.com/wiki/Debug_combination).[^1]
+
+[^1]: The shortcut to toggle the narrator (<kbd>Ctrl</kbd>+<kbd>F3</kbd>+<kbd>B</kbd>) is not supported for technical reasons; see [#3](https://github.com/MDLC01/universal-shortcuts-mc/issues/3).
 
 ### How does it work?
 
