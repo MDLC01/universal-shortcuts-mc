@@ -1,5 +1,9 @@
 # Universal Shortcuts
 
+![Game versions](https://img.shields.io/modrinth/game-versions/universal-shortcuts)
+![GitHub tag](https://img.shields.io/github/tag/MDLC01/universal-shortcuts-mc)
+![License](https://img.shields.io/github/license/MDLC01/universal-shortcuts-mc)
+
 This is a Fabric mod for Minecraft that fixes [MC-121278](https://bugs.mojang.com/browse/MC-121278), making <kbd>Ctrl</kbd>+<kbd>A</kbd> and other keyboard shortcuts work on non-QWERTY keyboard layouts.
 
 ## Q&A
