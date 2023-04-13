@@ -3,11 +3,12 @@
   "id": "universal-shortcuts-mc",
   "version": "${version}",
   "name": "Universal Shortcuts",
-  "description": "Fixes MC-121278.",
+  "description": "Fixes MC-121278, making Ctrl+A and other keyboard shortcuts work on non-QWERTY keyboard layouts.",
   "authors": [
     "MDLC01"
   ],
   "contact": {
+    "homepage": "https://modrinth.com/mod/universal-shortcuts",
     "issues": "https://github.com/MDLC01/universal-shortcuts-mc/issues",
     "sources": "https://github.com/MDLC01/universal-shortcuts-mc"
   },
