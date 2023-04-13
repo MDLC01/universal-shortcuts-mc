@@ -4,6 +4,7 @@
   "package": "com.mdlc.universalshortcuts.mixin",
   "compatibilityLevel": "JAVA_17",
   "client": [
+    "KeyboardHandlerMixin",
     "ScreenMixin"
   ],
   "injectors": {
