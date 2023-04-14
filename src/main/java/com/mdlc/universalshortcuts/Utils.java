@@ -3,7 +3,10 @@ package com.mdlc.universalshortcuts;
 import org.lwjgl.glfw.GLFW;
 
 
-public class Utils {
+public abstract class Utils {
+    private Utils() {
+    }
+
     /**
      * Test a key code corresponds to a key name for the current keyboard layout.
      *
