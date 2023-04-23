@@ -11,16 +11,30 @@ import org.spongepowered.asm.mixin.injection.Slice;
 
 @Mixin(KeyboardHandler.class)
 public abstract class KeyboardHandlerMixin {
+    /**
+     * Remaps a chunk debug key.
+     * <p>
+     * Chunk debug keys are not accessible in vanilla, but can be activated through modifications.
+     */
     @ModifyVariable(method = "handleChunkDebugKeys", at = @At("HEAD"), argsOnly = true)
     private int remapChunkDebugKey(int keyCode) {
         return Utils.remapKeyCodeToQWERTY(keyCode);
     }
 
+    /**
+     * Remaps a debug key.
+     * <p>
+     * The Toggle Narrator key is not remapped; see <a
+     * href="https://github.com/MDLC01/universal-shortcuts-mc/issues/3">issue #3</a>.
+     */
     @ModifyVariable(method = "handleDebugKeys", at = @At("HEAD"), argsOnly = true)
     private int remapDebugKey(int keyCode) {
         return Utils.remapKeyCodeToQWERTY(keyCode);
     }
 
+    /**
+     * Remaps the debug key that crashes the game when held for 10 seconds.
+     */
     // We do not inject in InputConstants#isKeyDown because other mods might use it with an already remapped key code.
     // This is also why this injector is so complicated. The @Slice is there to ensure we only match the right calls.
     @ModifyArg(
@@ -31,7 +45,7 @@ public abstract class KeyboardHandlerMixin {
                     to = @At(value = "FIELD", target = "Lnet/minecraft/client/KeyboardHandler;debugCrashKeyReportedCount:J", ordinal = 0)
             )
     )
-    private int remapIsKeyDownArgument(int keyCode) {
+    private int remapDebugCrashKey(int keyCode) {
         return Utils.remapKeyCodeToQWERTY(keyCode);
     }
 }
