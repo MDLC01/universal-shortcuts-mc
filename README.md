@@ -1,5 +1,6 @@
 # Universal Shortcuts
 
+![Downloads](https://img.shields.io/modrinth/dt/universal-shortcuts)
 ![Game versions](https://img.shields.io/modrinth/game-versions/universal-shortcuts)
 ![GitHub tag](https://img.shields.io/github/tag/MDLC01/universal-shortcuts-mc)
 ![License](https://img.shields.io/github/license/MDLC01/universal-shortcuts-mc)
