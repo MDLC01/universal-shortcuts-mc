@@ -1,3 +1,5 @@
+<img src="src/main/resources/assets/universal-shortcuts-mc/icon.png" alt="Universal Shortcuts icon" width="128" align="right">
+
 # Universal Shortcuts
 
 ![Downloads](https://img.shields.io/modrinth/dt/universal-shortcuts)
