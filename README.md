@@ -2,10 +2,10 @@
 
 # Universal Shortcuts
 
-![Downloads](https://img.shields.io/modrinth/dt/universal-shortcuts)
-![Game versions](https://img.shields.io/modrinth/game-versions/universal-shortcuts)
-![GitHub release](https://img.shields.io/github/release/MDLC01/universal-shortcuts-mc)
-![License](https://img.shields.io/github/license/MDLC01/universal-shortcuts-mc)
+[![Downloads](https://img.shields.io/modrinth/dt/universal-shortcuts)](https://modrinth.com/mod/universal-shortcuts)
+[![Game versions](https://img.shields.io/modrinth/game-versions/universal-shortcuts)](https://modrinth.com/mod/universal-shortcuts/versions)
+[![GitHub release](https://img.shields.io/github/release/MDLC01/universal-shortcuts-mc)](https://github.com/MDLC01/universal-shortcuts-mc/releases/latest)
+[![License](https://img.shields.io/github/license/MDLC01/universal-shortcuts-mc)](COPYING.txt)
 
 This is a Fabric mod for Minecraft that fixes [MC-121278](https://bugs.mojang.com/browse/MC-121278), making <kbd>Ctrl</kbd>+<kbd>A</kbd> and other keyboard shortcuts work on non-QWERTY keyboard layouts.
 
