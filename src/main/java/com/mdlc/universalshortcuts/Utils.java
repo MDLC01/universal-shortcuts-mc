@@ -1,5 +1,6 @@
 package com.mdlc.universalshortcuts;
 
+import net.minecraft.client.input.KeyEvent;
 import org.lwjgl.glfw.GLFW;
 
 
@@ -15,7 +16,7 @@ public abstract class Utils {
      * @param keyName
      *         a key name (typically, a letter of the latin alphabet)
      * @return {@code true} iff {@code keyCode} is not {@link GLFW#GLFW_KEY_UNKNOWN}, and corresponds to {@code keyName}
-     *         on the current keyboard layout
+     * on the current keyboard layout
      */
     public static boolean isKey(int keyCode, String keyName) {
         if (keyCode == GLFW.GLFW_KEY_UNKNOWN) {
@@ -30,7 +31,7 @@ public abstract class Utils {
      * @param localKeyCode
      *         the code of a key of the current keyboard
      * @return the code of the corresponding key on a QWERTY keyboard if it is a letter of the latin alphabet or an
-     *         arabic numeral, {@code localKeyCode} otherwise
+     * arabic numeral, {@code localKeyCode} otherwise
      */
     public static int remapKeyCodeToQWERTY(int localKeyCode) {
         if (localKeyCode == GLFW.GLFW_KEY_UNKNOWN) {
@@ -79,5 +80,17 @@ public abstract class Utils {
             case "Z", "z" -> GLFW.GLFW_KEY_Z;
             default -> localKeyCode;
         };
+    }
+
+    /**
+     * Returns the corresponding event on a QWERTY keyboard.
+     *
+     * @param localKeyEvent
+     *         a key event on the current keyboard
+     * @return the corresponding event on a QWERTY keyboard if it is a letter of the latin alphabet or an arabic
+     * numeral, a value equal to {@code localKeyEvent} otherwise
+     */
+    public static KeyEvent remapKeyEventToQWERTY(KeyEvent localKeyEvent) {
+        return new KeyEvent(remapKeyCodeToQWERTY(localKeyEvent.key()), localKeyEvent.scancode(), localKeyEvent.modifiers());
     }
 }
