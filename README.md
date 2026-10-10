@@ -9,6 +9,8 @@
 
 This is a Fabric mod for Minecraft that fixes [MC-121278](https://bugs.mojang.com/browse/MC-121278), making <kbd>Ctrl</kbd>+<kbd>A</kbd> and other keyboard shortcuts work on non-QWERTY keyboard layouts.
 
+This repository has been archived after MC-121278 was fixed upstream in Minecraft 26.3.
+
 ## Q&A
 
 ### What shortcuts are supported?
